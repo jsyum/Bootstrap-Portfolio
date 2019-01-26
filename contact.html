@@ -44,14 +44,43 @@
     </nav>
 
     <!--IMAGE AND BIO TEXT-->
-    <div class="container">
+    <div class="container-fluid">
       <div class="row">
         <div class="col">
-          <img src="assets/images/me2.jpg" alt="me" width="100%" />
+          <img
+            src="assets/images/me2.jpg"
+            alt="me"
+            width="100%"
+            height="100%"
+          />
         </div>
         <div class="col">
+          <br />
           <a href="https://github.com/jsyum" target="_blank">Github</a> <br />
-          jennifersyum@gmail.com
+          email: jennifersyum@gmail.com <br /><br />
+          <!--CONTACT FORM MOCKUP-->
+          <form>
+            <div class="form-group">
+              <label for="exampleFormControlInput1">Your email address</label>
+              <input
+                type="email"
+                class="form-control"
+                id="exampleFormControlInput1"
+                placeholder="name@example.com"
+              />
+            </div>
+
+            <div class="form-group">
+              <label for="exampleFormControlTextarea1">Your message</label>
+              <textarea
+                class="form-control"
+                id="exampleFormControlTextarea1"
+                rows="3"
+              ></textarea>
+            </div>
+          </form>
+          <!--Send Message Button-->
+          <input class="btn btn-primary" type="submit" value="Submit" />
         </div>
       </div>
     </div>
